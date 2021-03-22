@@ -1,7 +1,39 @@
+@import 'config';
+
 body {
-  background-image: url(../record.png)
+  background-image: url(../record.png);
+  background-repeat: repeat;
+  background-size: 15vw;
 }
 
-header{
-  background-color: #555;
+.title {
+  background-color: $primary-color;
+  color: set-text-color($primary-color);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px set-text-color(set-text-color($primary-color));
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: relative;
+  height: 20vh;
+}
+
+#titleH1 {
+  padding-top: 0.5em;
+  padding-bottom: 0;
+}
+
+#titleH2 {
+  padding-top: 0;
+  padding-bottom: 0.5em;
+}
+
+main {
+  padding: 1em;
+  position: relative;
+  background-color: $secondary-color;
+  height: 80vh;
 }
