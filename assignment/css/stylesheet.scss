@@ -4,6 +4,7 @@ body {
   background-image: url(../record.png);
   background-repeat: repeat;
   background-size: 15vw;
+  margin: 0;
 }
 
 .title {
@@ -24,11 +25,13 @@ body {
 #titleH1 {
   padding-top: 0.5em;
   padding-bottom: 0;
+  font-size: 3em;
 }
 
 #titleH2 {
   padding-top: 0;
   padding-bottom: 0.5em;
+  font-size: 2.5em;
 }
 
 main {
@@ -36,4 +39,7 @@ main {
   position: relative;
   background-color: $secondary-color;
   height: 80vh;
+  color: #fff;
+  font-size: 2em;
+  text-shadow: 2px 2px #000;
 }
